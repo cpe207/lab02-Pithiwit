@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #006064;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #00796b;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #00796b;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Tab a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.Tab a h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img img {
+    border-radius: 50%;
+    border: 5px solid #00796b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+h3, h4, .intro {
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skills h5, .skills h6 {
+    margin: 10px 0 5px 0;
+}
+
+.skills p {
+    margin: 0 0 10px 0;
+}
+
+.intro {
+    font-size: 15px;
+}
